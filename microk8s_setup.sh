@@ -1,6 +1,6 @@
 sudo ap update  
 sudo apt install  snapd
-snap insall microk8s --classic --channel=1.30/stable
+snap install microk8s --classic --channel=1.30/stable
 microk8s enable dns
 microk8s enable dashboard
 microk8s enable sorage
